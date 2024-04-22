@@ -1,66 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Hice esta prueba tecnica para una empresa como desarrollador Junior PHP, Laravel, Wordppres 
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A continuación le envío la prueba, la idea es realizar un formulario de registro con los campos y el diseño que está en el pdf. La idea es guardar todos estos campos al igual que una imagen y generar una opción para que el usuario pueda entrar con el usuario y contraseña que generó y pueda ver los registros que colocó en el form.
 
-## About Laravel
+Además debe existir un rol de administrador donde pueda ver los datos registrados, las preguntas y las imágenes subidas. Además debe tener la posibilidad de cambiar las preguntas como: Comida Favorita, Artista favorito, Lugar favorito y Color favorito sin afectar los datos ya registrados en la DB.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Así mismo es importante que se envíe un email al usuario y al admin informando del registro.
+La contraseña debe quedar encriptada y utilizar las mejores prácticas de seguridad.
+El registro con Facebook y Google son un plus(no son obligatorias).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+La prueba debe estar realizada en:
+Front: HTML5, CSS3 y Javascript.
+Backend: Laravel PHP
+Base de datos puede ser Mysql, Mondo DB o la que usted maneje mejor.
+Tendría 2 días para el desarrollo.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Nota. Se que el Auth va en un controllador, para efectos de esta prubea he decidido separarlos para seccionarlo y tenga una legibilidad un poco mas clara, al igual que los modelos y middleware.
 
-## Learning Laravel
+- Fronted se hizo desde cero, no se utilizó ninguna libreria propia de laravel. se pudo utilzar breeze, para ahorrar tiempo, pero decidí hacer todo.
+- envio de token al registrarse y recuperar contraseña
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Login
+![login](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/48272b55-ea1a-4d8f-b11e-41e75a877554)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Registro
+![registro](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/bc89b4f5-de86-4759-b49f-f4814a769ce0)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Recuperar Password
+![recuperar](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/d863b0fd-1524-4f27-8750-9487cc1183d3)
 
-## Laravel Sponsors
+Panel Usuario
+![Panel Usuario](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/73837777-85ba-4e65-8143-fd6a8afbb5d3)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Perfil Usuario
+![Perfil Usuario](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/1c693baa-3d3e-4a74-aefe-5bfed748ccb1)
 
-### Premium Partners
+Panel Admin
+![panel admin](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/31d1981b-6901-4c8a-8286-e528d31ef3d5)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Vista Usuarios
+![admin usuarios](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/37439477-1d74-47d6-b095-0db506ff53fe)
 
-## Contributing
+Vista Preguntas del formulario
+![admin preguntas](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/3e2b66b8-69c0-439e-bd73-942dd82712bc)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Base de dato Mysql
+![db](https://github.com/Saam97/prueba-tecnica-laravel/assets/114370885/2cad369c-df0f-4b48-9e7b-9d8c2d3b46b9)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
