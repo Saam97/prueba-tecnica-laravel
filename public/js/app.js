@@ -1,0 +1,1 @@
+function paginaActual(){const t=window.location,e=document.querySelector(`a[href="${t.pathname}"]`);e&&e.classList.add("dashboard__enlace--actual")}window.addEventListener("load",(function(){paginaActual()}))
